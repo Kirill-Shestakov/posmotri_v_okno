@@ -145,9 +145,8 @@ ol {
   border: 1px solid #fff;
 }
 
-.search-form__pseudo-checkbox::before {
+.search-form__pseudo-checkbox::after {
   content: "";
-  position: absolute;
   display: none;
   background-color: #FFF;
   inset: 0;
@@ -156,7 +155,7 @@ ol {
   margin: auto;
 }
 
-.search-form__checkbox[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
+.search-form__checkbox[type='checkbox']:checked + .search-form__pseudo-checkbox.search-form__pseudo-checkbox::after {
   display: block;
 }
 

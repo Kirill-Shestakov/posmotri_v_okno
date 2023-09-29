@@ -14,7 +14,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -48,7 +48,7 @@ ol {
   white-space: nowrap;
 }
 
-.content { 
+.content {
   display: flex;
   align-items: flex-end;
   min-width: 1140px;
@@ -99,7 +99,7 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
@@ -114,7 +114,7 @@ ol {
 
 .search-form__textfield {
   background: transparent;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   border-left: transparent;
   border-right: transparent;
   color: #ffffffb3;
@@ -129,8 +129,8 @@ ol {
 }
 
 .search-form__textfield:active {
-  border-left: 1px solid #FFF;
-  border-right: 1px solid #FFF;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
 }
 
 .search-form__checkbox-list {
@@ -149,19 +149,20 @@ ol {
   content: "";
   position: absolute;
   display: none;
-  background-color: #FFF;
+  background-color: #fff;
   inset: 0;
   inline-size: 15px;
   block-size: 15px;
   margin: auto;
 }
 
-.search-form__checkbox[type='checkbox']:checked + .search-form__pseudo-checkbox.search-form__pseudo-checkbox::after {
+.search-form__checkbox[type="checkbox"]:checked
+  + .search-form__pseudo-checkbox.search-form__pseudo-checkbox::after {
   display: block;
 }
 
 .content__card-link {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -185,7 +186,6 @@ ol {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
-
 }
 
 .content__accent {
@@ -200,8 +200,8 @@ ol {
   max-height: 298px;
   overflow: auto;
   /* Скрываем scrollbar для IE, Edge и Firefox */
-  -ms-overflow-style: none;  /* IE и Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE и Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* Скрываем scrollbar для Chrome, Safari и Opera */
@@ -249,7 +249,7 @@ ol {
 }
 
 .content__video-card-description {
-  color: #FFF;
+  color: #fff;
   font-family: Fira Sans Condensed;
   line-height: 16.2px;
 }
@@ -274,7 +274,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
   outline-offset: 1px;
 }
 

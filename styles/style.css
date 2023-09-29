@@ -147,6 +147,7 @@ ol {
 
 .search-form__pseudo-checkbox::after {
   content: "";
+  position: absolute;
   display: none;
   background-color: #FFF;
   inset: 0;
@@ -225,13 +226,18 @@ ol {
   background-color: #545050;
 }
 
+.content__card-link {
+  display: block;
+  margin: 3px;
+}
+
 .content__video-card {
   display: flex;
   justify-content: space-between;
 }
 
 .content__video-card-description-container {
-  padding-top: 7px;
+  padding-top: 6px;
   flex-grow: 1;
 }
 
